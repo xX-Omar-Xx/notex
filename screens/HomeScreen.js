@@ -11,8 +11,15 @@ import {
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
-    header: null,
-  };
+    title: "NoTeX",
+    headerStyle: {
+      backgroundColor: '#f4511e',
+    },
+    headerTintColor: '#fff',
+    headerTitleStyle: {
+      fontWeight: 'bold',
+    },
+  }
 
   render() {
     return (
@@ -25,6 +32,6 @@ export default class HomeScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#4286f4',
   }
 });
