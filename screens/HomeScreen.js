@@ -13,7 +13,7 @@ export default class HomeScreen extends React.Component {
   static navigationOptions = {
     title: "NoTeX",
     headerStyle: {
-      backgroundColor: '#f4511e',
+      backgroundColor: '#FFFD0D',
     },
     headerTintColor: '#fff',
     headerTitleStyle: {
